@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { NavBar, Icon,Tabs,Carousel} from 'antd-mobile';
-import {Link,Route} from 'react-router-dom';
+// import {Link,Route} from 'react-router-dom'
+import AppSitting from './AppSitting';
 
 export default class AppMy extends Component {
     render() {
@@ -13,7 +14,7 @@ export default class AppMy extends Component {
                     // icon={<Icon type="left" />}
                     // onLeftClick={() => console.log('onLeftClick')}
                     rightContent={[
-                        <icon style={{fontSize:22,lineHeight:'22px'}} className='iconfont icon-shezhi'/>,
+                        <icon style={{fontSize:22,lineHeight:'22px'}} className='iconfont icon-shezhi'></icon>,
                         // <Icon key="0" type="setting"  style={{ marginRight: '16px' }} />,
                         // <Icon key="1" type="ellipsis" />,
                     ]}
